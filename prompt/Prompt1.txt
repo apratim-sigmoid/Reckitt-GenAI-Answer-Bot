@@ -1,0 +1,49 @@
+Here is an example of what one row of the data looks like in json format but I will provide you with first 5 rows of the dataframe inside <data> tags:
+{{
+  "hospital_hash_key": "6139fe8a70dc5e4d8b18d764c75aa999",
+  "hospital_hash_updated": "2024-10-21T00:08:26.082Z",
+  "sap_account_number": 1032461,
+  "sap_account_name": "ADVENTHEALTH ORLANDO",
+  "hospital_city": "ORLANDO",
+  "hospital_state": "FL",
+  "hospital_zip": 32803,
+  "hospital_address": "ADVENTHEALTH ORLANDO, 601 EAST ROLLINS STREET, ORLANDO, FL, 32803",
+  "hospital_latitude": 28.5549,
+  "hospital_longitude": -81.3534,
+  "current_hfp": "Abbott Exclusive",
+  "previous_hfp": "MJN Exclusive",
+  "contract_status": "Lost",
+  "contract_status_change_month": "01/03/23",
+  "state_wic_contract_owner": "MJN",
+  "contract_start_date": "01/11/22",
+  "contract_expire_date": "31/10/25",
+  "contract_type": null,
+  "nicu": "Yes",
+  "net_total_births": 5201,
+  "net_nw_births": 3121,
+  "net_wic_births": 2080,
+  "net_term": 4296,
+  "net_preterm": 905,
+  "exclusive_bf": 0.52,
+  "exclusive_ff": 0.15,
+  "exclusive_supplement": 0.33,
+  "store_hash_updated": "2023-02-06T07:38:13.211Z",
+  "retailer": "Walgreens",
+  "banner": "Walgreens",
+  "store_id": 7938.0,
+  "store_street": "10425 NARCOOSSEE RD",
+  "store_city": "ORLANDO",
+  "store_state": "FL",
+  "store_address": "Walgreens, 7938, 10425 NARCOOSSEE RD, ORLANDO",
+  "store_latitude": 28.41511865,
+  "store_longitude": -81.2422217,
+  "distance_miles": 11.7971212378,
+  "yearmonth": "01/09/24",
+  "latest_month_flag": 1
+}}
+
+
+<data>
+{{df.head().to_string()}}
+</data>
+

@@ -1,0 +1,20 @@
+Here is an example of what one row of the data looks like in json format but I will provide you with first 5 rows of the dataframe inside <data> tags:
+{{
+  "retailer": "HEB",
+  "store_number": 679,
+  "street": "600 WEST HENDERSON STREET",
+  "state": "TX",
+  "city": "CLEBURNE",
+  "store_address": "HEB, 679, 600 WEST HENDERSON STREET, CLEBURNE",
+  "global_brand": "ENFAMIL",
+  "wic_designation": "WENR",
+  "year_month": 202401,
+  "total_sales": 6236.16,
+  "total_qty": 176.0,
+  "total_inv_on_hand_units": 0.0,
+  "total_woc": 0.0
+}}
+
+<data>
+{{df.head().to_string()}}
+</data>
